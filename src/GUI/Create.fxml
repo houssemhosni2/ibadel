@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F3F14F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.CreateController">
+   <children>
+      <Button fx:id="btnNewSimple" layoutX="186.0" layoutY="116.0" mnemonicParsing="false" onAction="#new_simp" prefHeight="39.0" prefWidth="189.0" style="-fx-background-color: #000000;" text="Create simple User" textFill="#f3f14f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnNewAdmin" layoutX="185.0" layoutY="206.0" mnemonicParsing="false" onAction="#new_admin" prefHeight="39.0" prefWidth="195.0" style="-fx-background-color: #000000;" text="Create Admin" textFill="#f3f14f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCancel" layoutX="517.0" layoutY="350.0" mnemonicParsing="false" onAction="#cancel" style="-fx-background-color: #F3F14F;" text="cancel">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

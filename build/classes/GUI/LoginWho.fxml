@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F3F14F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LoginWhoController">
+   <children>
+      <Button fx:id="cancel" layoutX="28.0" layoutY="350.0" mnemonicParsing="false" onAction="#cancel" style="-fx-background-color: #F3F14F;" text="cancel">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="loginA" layoutX="173.0" layoutY="219.0" mnemonicParsing="false" onAction="#gotoadmin" prefHeight="56.0" prefWidth="237.0" style="-fx-background-color: #000000;" text="Login as admin" textFill="#f3f14f">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginS" layoutX="172.0" layoutY="88.0" mnemonicParsing="false" onAction="#gotosimple" prefHeight="56.0" prefWidth="230.0" style="-fx-background-color: #000000;" text="Login as simple user" textFill="#f3f14f">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+   </children>
+</AnchorPane>

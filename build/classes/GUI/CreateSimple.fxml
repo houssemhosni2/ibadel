@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.CreateSimpleController">
+   <children>
+      <Button fx:id="btnConfirm" layoutX="508.0" layoutY="264.0" mnemonicParsing="false" onAction="#ajoutersimple" text="Confirm" />
+      <Button fx:id="btnCancel" layoutX="508.0" layoutY="307.0" mnemonicParsing="false" onAction="#cancel_create" text="Cancel" />
+      <TextField fx:id="tfUsername" layoutX="191.0" layoutY="128.0" />
+      <TextField fx:id="tfMail" layoutX="191.0" layoutY="228.0" />
+      <PasswordField fx:id="tfPassword" layoutX="191.0" layoutY="175.0" />
+      <DatePicker fx:id="tfDate" layoutX="189.0" layoutY="295.0" prefHeight="25.0" prefWidth="164.0" />
+      <Label layoutX="243.0" layoutY="94.0" text="username" />
+      <Label layoutX="252.0" layoutY="153.0" text="Passxord" />
+      <Label layoutX="252.0" layoutY="211.0" text="Mail" />
+      <Label layoutX="252.0" layoutY="268.0" text="Date of birth" />
+   </children>
+</AnchorPane>

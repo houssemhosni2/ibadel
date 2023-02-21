@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F3F14F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AcceuilController">
+   <children>
+      <Pane layoutX="237.0" layoutY="-1.0" prefHeight="400.0" prefWidth="359.0" style="-fx-background-color: #f3f14f;">
+         <children>
+            <Button fx:id="btncreate" layoutX="122.0" layoutY="257.0" mnemonicParsing="false" onAction="#gotocreate" prefHeight="25.0" prefWidth="186.0" style="-fx-background-color: #000000;" text="Create" textFill="#f3f14f">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnlogin" layoutX="122.0" layoutY="142.0" mnemonicParsing="false" onAction="#gotologin" prefHeight="25.0" prefWidth="186.0" style="-fx-background-color: #000000;" text="Login" textFill="#f3f14f">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane prefHeight="400.0" prefWidth="290.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../newpackage/327219549_494825626194570_4624249813250472593_n.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.GestionUController">
+   <children>
+      <ButtonBar layoutX="70.0" layoutY="130.0" prefHeight="40.0" prefWidth="200.0" />
+      <TableView fx:id="table" layoutX="57.0" layoutY="86.0" prefHeight="200.0" prefWidth="457.0">
+        <columns>
+          <TableColumn fx:id="nom" prefWidth="75.0" text="name" />
+          <TableColumn fx:id="password" prefWidth="75.0" text="password" />
+            <TableColumn fx:id="mail" prefWidth="75.0" text="mail" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
