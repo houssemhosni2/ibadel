@@ -62,11 +62,11 @@ public class CreateSimpleController implements Initializable {
             al.setContentText("Veuillez remplir les champs vides ! ");
             al.showAndWait();
         }
-        else if (tfDate.getValue().getYear() < 2006)
+        else if (tfDate.getValue().getYear() < 2005)
         {
             Alert al2 = new Alert(Alert.AlertType.ERROR);
             al2.setHeaderText(null);
-            al2.setContentText("Vous devez avoir plus de 15 ans !");
+            al2.setContentText("Vous devez avoir plus de 18 ans !");
             al2.showAndWait();
         }
         else if (!tfMail.getText().matches("^[a-zA-Z]+[a-zA-Z0-9\\._-]*[a-zA-Z0-9]@[a-zA-Z]+"
@@ -94,7 +94,6 @@ public class CreateSimpleController implements Initializable {
             FXMLLoader loader= new FXMLLoader(getClass().getResource("GestionU.fxml"));
             Parent root= loader.load();
             tfUsername.getScene().setRoot(root);
-
         }
         
     }

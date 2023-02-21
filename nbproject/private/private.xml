@@ -5,14 +5,11 @@
         <group>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/ConnectionU.fxml</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/CreateSimple.fxml</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/LoginWhoController.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/ibadel/Ibadel.java</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/ConnectionAController.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/ConnectionUController.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/Create.fxml</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/Services/servicesimple.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/CreateSimpleController.java</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/AcceuilController.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/Services/servicesimple.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/Services/serviceadmin.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/GUI/CreateController.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/Ibadel/src/Services/Iservice.java</file>

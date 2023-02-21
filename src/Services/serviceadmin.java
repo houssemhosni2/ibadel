@@ -10,13 +10,9 @@ package Services;
  * @author hp
  */
 import Class.admin;
-import Connection.MyConnection;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.List;
+
+
 
 
 /**
@@ -60,8 +56,5 @@ public class serviceadmin implements Iservice <admin>
     public List<admin> recherche(String Xusername) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
    
 }
-
-
